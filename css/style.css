@@ -203,3 +203,38 @@ table th{
     color: var(--Nutmeg-color);
     font-weight: 800;
 }
+
+
+@media screen and (max-width: 1250px) {
+  .container {
+    height: 100%;
+    width: 75%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .container {
+    height: 100%;
+    width: 85%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .container {
+    height: 100%;
+    width: 100%;
+    background-color: var(--White-color);
+    gap: 25px;
+    margin: 0;
+    border-radius: 0px;
+    padding: 0;
+  }
+  .recipe-img {
+      padding: 0;
+      border-radius: 0;
+  }
+  .recipe-img img {
+    border-radius: 0;
+  }
+  table {
+    width: auto;
+  }
+}
